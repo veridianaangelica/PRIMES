@@ -1,0 +1,39 @@
+.nav-icons li{
+	display: inline-block;
+	list-style: none;
+	color:white;
+}
+.nav-list li{
+	display: inline-block;
+	list-style: none;
+	color:white;
+}
+
+.fondo{
+	background: url(../img/background/hero.jpg);
+    background: transparent\9;
+ 
+	background-size: cover;
+	height: 700px;
+	opacity:0.6;
+}
+.business{
+	text-align: center;
+	padding-top: 200px;
+	color:white;
+}
+.viva{
+	text-align: center;
+	padding-top: 10px;
+	color:white;
+}
+h3{
+	text-align: center;
+}
+.laptop{
+	width: 80%;
+}
+.container-features{
+	text-align: center;
+	background: #F2F2F2;
+}
