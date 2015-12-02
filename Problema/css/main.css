@@ -26,9 +26,8 @@ body{
     background: transparent\9;
     background-size: cover;
 	height: 700px;
-	-webkit-filter: brightness(45%);
-    filter: brightness(45%)
-}
+	-webkit-filter: invert(20%);
+    filter: invert(20%);}
 .business{
 	text-align: center;
 	padding-top: 200px;
@@ -54,6 +53,16 @@ h3{
 	display: inline-block;
 	list-style: none;
 	padding-left: 30px;
+}
+.nav_menu a{
+	color:black;
+	transition:all 0.5s;
+}
+.nav_menu a:hover{
+	text-decoration: none;
+    background:#009CA8 ;
+    color:white;
+    transform: scale(1.5);
 }
 .laptop{
 	width: 80%;
@@ -82,8 +91,8 @@ h3{
 }
 .footer{
 	background: url(../img/background/contactus.jpg);
-	-webkit-filter: brightness(45%);
-    filter: brightness(45%)
+	-webkit-filter: invert(20%);
+    filter: invert(20%);}
 }
 #ico{
 	font-size: 25px;
