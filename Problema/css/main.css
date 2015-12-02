@@ -12,8 +12,14 @@ body{
 	color:white;
 	padding-right: 35px;
 }
- .p .parrafo_center .parrafo_center1{
- 	color: #98A0A8;
+.nav-list a{
+	color:#FAFAFA;
+	transition:all 0.5s;
+}
+.nav-list a:hover{
+    text-decoration: none;
+    background:#009CA8 ;
+    transform: scale(1.5);
  }
 .fondo{
 	background: url(../img/background/hero.jpg);
@@ -82,4 +88,22 @@ h3{
 #ico{
 	font-size: 25px;
 	color:#FAFAFA;
+}
+.follow_us{
+	text-align: center;
+}
+#ic{
+	font-size: 40px;
+}
+.list-iconos li{
+	display: inline-block;
+	list-style: none;
+	padding: 30px 15px;
+}
+.final{
+	text-align: center;
+	background: #2d323a;
+	color:#98A0A8;
+	height: 80px;
+	padding-top: 35px;
 }
