@@ -7,13 +7,15 @@
 	display: inline-block;
 	list-style: none;
 	color:white;
+	padding-right: 35px;
 }
-
+ .p .parrafo_center .parrafo_center1{
+ 	color: #98A0A8;
+ }
 .fondo{
 	background: url(../img/background/hero.jpg);
     background: transparent\9;
- 
-	background-size: cover;
+    background-size: cover;
 	height: 700px;
 	opacity:0.6;
 }
@@ -27,13 +29,40 @@
 	padding-top: 10px;
 	color:white;
 }
+#icono{
+	font-size: 35px;
+	color:#0DC0C0;
+}
+.col-sm-4{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.parrafo_center{
+	padding-left: 120px; 
+}
+.parrafo_center1{
+	padding-right: 120px;
+}
 h3{
 	text-align: center;
+}
+.nav_menu li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 30px;
 }
 .laptop{
 	width: 80%;
 }
+#more{
+	background: 
+}
 .container-features{
 	text-align: center;
 	background: #F2F2F2;
+}
+.fondo_city{
+	background: url(../img/background/city.jpg);
+	background-size: cover;
+	height: 450px;
 }
